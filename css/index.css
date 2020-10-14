@@ -14,7 +14,7 @@ header {
   height: 300px;
   position: relative;
   color: white;
-  margin: 20px 10% 0;
+  margin: 20px 20% 0;
 }
 .layover {
   height: 100%;
@@ -43,7 +43,7 @@ header {
   background: #504741;
   color: white;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
-  margin: 0 10% 0;
+  margin: 0 20% 0;
   text-align: center;
   position: relative;
 }
@@ -66,41 +66,76 @@ header {
 
 main {
   height: 800px;
-  margin: 10px 10% 0;
+  margin: 10px 20% 0;
 }
 main::after {
 content: "";
 display: table;
 clear: both;
 }
-.leftcolumn, .maincolumn, .widget {
+#left-column, #main-column, .widget {
   background: white;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 25px;
 }
-.leftcolumn {
-  width: 20%;
+#left-column {
+  width: 25%;
   float: left;
-  margin-right: 10%;
+  margin-right: 5%;
 }
-.maincolumn {
+#main-column {
   width: 40%;
   float: left;
 }
-.rightcolumn{
-  width: 20%;
-  height: 100%;
+#right-column {
+  width: 25%;
   float: right;
+}
+#icon-rss {
+  float: left;
+  margin: 10px;
+  font-size: 30px;
+  color: orange;
+}
+#text-right-column {
+  margin: 10px 0 20px;
+}
+.link {
+  color: green;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#text-main-column {
+  padding: 10px;
+  margin: 10px 0 20px;
+  color: #333333;
+  background: #FFFFFF;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+  color: #333333;
+  background: #FFFFFF
 }
 .widget {
   margin: 0 0 10px;
 }
+.text-widget {
+  margin-bottom: 20px;
+}
 
 footer {
-  border: 1px solid white;
   height: 150px;
+  color: lightgrey;
   background: white;
-  margin: 0 10% 0;
+  margin: 0 20% 0;
+  border-radius: 5px;
+  padding: 10px;
   text-align: center;
-
+}
+#signature {
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  font-style: italic;
+  border-bottom: 1px solid lightgrey;
 }
 .icon {
   display: inline-block;
