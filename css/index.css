@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/legno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url("../img/foresta.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 10px solid white;
+  height: 300px;
+  position: relative;
+  color: white;
+  margin: 20px 10% 0;
+}
+.layover {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+h1 {
+  border: 10px solid white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  padding: 0 10px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  height: 60px;
+  background: grey;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 10% 0;
+  text-align: center;
+  position: relative;
+}
+ul {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+main {
+  height: 800px;
+  margin: 10px 10% 0;
+}
+main::after {
+content: "";
+display: table;
+clear: both;
+}
+.leftcolumn, .maincolumn, .widget {
+  background: white;
+}
+.leftcolumn {
+  width: 20%;
+  float: left;
+  margin-right: 10%;
+}
+.maincolumn {
+  width: 40%;
+  float: left;
+}
+.rightcolumn{
+  width: 20%;
+  height: 100%;
+  float: right;
+}
+.widget {
+  margin: 0 0 10px;
+}
+
+footer {
+  border: 1px solid white;
+  height: 150px;
+  background: white;
+  margin: 0 10% 0;
+  text-align: center;
+
+}
+.icon {
+  display: inline-block;
+  width: 33%;
+  font-size: 30px;
+  padding: 30px;
+}
